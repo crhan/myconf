@@ -92,5 +92,6 @@ if [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
 fi
 
-export VIMRUNTIME=/usr/src/vim/runtime/
-
+# Alias to make 'cd ..' easier
+alias cd.="cd .."
+alias clr="clear"
