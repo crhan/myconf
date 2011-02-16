@@ -16,3 +16,6 @@
 [submodule "vimFiles/bundle/vim-unimpaired"]
 	path = vimFiles/bundle/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "vimFiles/bundle/vim-speeddating"]
+	path = vimFiles/bundle/vim-speeddating
+	url = https://github.com/tpope/vim-speeddating.git
