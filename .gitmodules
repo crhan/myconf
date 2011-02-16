@@ -7,3 +7,12 @@
 [submodule "vimFiles/bundle/vim-surround"]
 	path = vimFiles/bundle/vim-surround
 	url = git://github.com/tpope/vim-surround.git
+[submodule "vimFiles/bundle/vim-repeat"]
+	path = vimFiles/bundle/vim-repeat
+	url = git://github.com/tpope/vim-repeat.git
+[submodule "vimFiles/bundle/vim-abolish"]
+	path = vimFiles/bundle/vim-abolish
+	url = git://github.com/tpope/vim-abolish.git
+[submodule "vimFiles/bundle/vim-unimpaired"]
+	path = vimFiles/bundle/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git
