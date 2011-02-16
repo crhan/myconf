@@ -1,0 +1,3 @@
+[submodule "vimFiles/bundle/snipmate"]
+	path = vimFiles/bundle/snipmate
+	url = https://github.com/msanders/snipmate.vim.git
