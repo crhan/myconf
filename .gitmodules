@@ -4,3 +4,6 @@
 [submodule "vimFiles/bundle/yankRing"]
 	path = vimFiles/bundle/yankRing
 	url = git://github.com/vim-scripts/YankRing.vim.git
+[submodule "vimFiles/bundle/vim-surround"]
+	path = vimFiles/bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git
