@@ -6,3 +6,7 @@ ubuntu.rc.local：
     放在/etc/rc.locaol的启动脚本文件，因为使用ssd，所以每次启动要修改文件调度方式为noop
 vimrc & vim/：
     放在用户目录下即可
+    将要被删除
+vimFiles:
+	存放vim的所有文件，以及vimrc
+
