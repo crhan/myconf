@@ -13,4 +13,5 @@
 
 echo "noop" > /sys/block/sda/queue/scheduler
 
+autossh -M 2000 -f -nNTq -D 7070 crhancom
 exit 0
