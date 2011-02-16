@@ -85,3 +85,6 @@ imap <C-h> <left>
 imap <C-j> <down>
 imap <C-k> <up>
 imap <C-l> <right>
+
+" Add keybind for yankring.vim
+nnoremap <silent> <F8> :YRShow<CR>
