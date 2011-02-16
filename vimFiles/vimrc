@@ -51,7 +51,7 @@ autocmd filetype python set expandtab
 set t_Co=256
 
 if &t_Co >= 256 || has("gui_running")
-	colorscheme mustang
+	colorscheme jellybeans
 endif
 
 if &t_Co > 2 || has("gui_running")

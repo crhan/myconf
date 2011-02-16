@@ -95,3 +95,5 @@ fi
 # Alias to make 'cd ..' easier
 alias cd.="cd .."
 alias clr="clear"
+
+export EDITOR=vim
