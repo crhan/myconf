@@ -6,12 +6,14 @@ set nocompatible
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 
-" Change the mapleader from \ to ,
-let mapleader=","
-
 " Quickly edit/reload the vimrc file
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
+
+" Source the vimrc file after saving it
+if has("autocmd")
+  autocmd bufwritepost .vimrc source $MYVIMRC
+endif
 
 " Most basic settings
 set wrap          " wrap lines
@@ -51,7 +53,7 @@ autocmd filetype python set expandtab
 set t_Co=256
 
 if &t_Co >= 256 || has("gui_running")
-	colorscheme jellybeans
+	colorscheme inkpot
 endif
 
 if &t_Co > 2 || has("gui_running")
@@ -88,3 +90,6 @@ imap <C-l> <right>
 
 " Add keybind for yankring.vim
 nnoremap <silent> <F8> :YRShow<CR>
+
+" Bind lusty-juggler to <leader>b
+nmap <silent> <Leader>b :LustyJuggler<CR>
