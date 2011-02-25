@@ -1,6 +1,9 @@
 set hidden
 set nocompatible
 
+" sets leader to ','
+let mapleader=","
+
 " Use pathogen to easily modify the runtime path to include all
 " plugins under the ~/.vim/bundle directory
 call pathogen#helptags()
@@ -53,7 +56,7 @@ autocmd filetype python set expandtab
 set t_Co=256
 
 if &t_Co >= 256 || has("gui_running")
-	colorscheme inkpot
+	colorscheme xoria256
 endif
 
 if &t_Co > 2 || has("gui_running")
@@ -62,9 +65,9 @@ if &t_Co > 2 || has("gui_running")
 endif
 
 " Automatically highlight whitespaces
-set list
-set listchars=tab:>.,trail:.,extends:#,nbsp:.
-autocmd filetype html,xml set listchars+=tab:\ \ 
+" set list
+" set listchars=tab:>.,trail:.,extends:#,nbsp:.
+" autocmd filetype html,xml set listchars+=tab:\ \ 
 
 " Add a shortcut Mappings for ":" and make j k more like the normal one
 nnoremap ; :
@@ -93,3 +96,4 @@ nnoremap <silent> <F8> :YRShow<CR>
 
 " Bind lusty-juggler to <leader>b
 nmap <silent> <Leader>b :LustyJuggler<CR>
+
