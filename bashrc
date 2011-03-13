@@ -97,3 +97,5 @@ alias cd.="cd .."
 alias clr="clear"
 
 export EDITOR=vim
+
+export "PATH=$PATH:/home/crhan/src/android-sdk/platform-tools"
