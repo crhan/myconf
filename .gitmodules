@@ -22,3 +22,6 @@
 [submodule "vimFiles/bundle/vimwiki"]
 	path = vimFiles/bundle/vimwiki
 	url = https://github.com/vim-scripts/vimwiki.git
+[submodule "vimFiles/bundle/xmledit"]
+	path = vimFiles/bundle/xmledit
+	url = https://github.com/sukima/xmledit.git

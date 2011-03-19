@@ -97,3 +97,5 @@ nnoremap <silent> <F8> :YRShow<CR>
 " Bind lusty-juggler to <leader>b
 nmap <silent> <Leader>b :LustyJuggler<CR>
 
+" Bind paste mode toggle to <Leader>p
+nmap <silent> <Leader>p :set pastetoggle<CR>
