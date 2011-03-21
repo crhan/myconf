@@ -1,0 +1,13 @@
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+[user]
+	name = Crhan
+	email = crhan123@gmail.com
+[color]
+	ui = true
+[core]
+	editor = vim
+	excludesfile = /home/crhan/sh/myconf/gitignore
