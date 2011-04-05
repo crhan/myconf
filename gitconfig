@@ -11,3 +11,5 @@
 [core]
 	editor = vim
 	excludesfile = /home/crhan/sh/myconf/gitignore
+[merge]
+	tool = meld

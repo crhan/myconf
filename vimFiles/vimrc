@@ -56,7 +56,7 @@ autocmd filetype python set expandtab
 set t_Co=256
 
 if &t_Co >= 256 || has("gui_running")
-	colorscheme xoria256
+	colorscheme wombat256
 endif
 
 if &t_Co > 2 || has("gui_running")
@@ -81,7 +81,13 @@ map <C-k> <C-w>k
 map <C-l> <C-w>l
 
 " Easy to clear the hightlighting for search
-nmap <silent> ,/ :nohlsearch<CR>
+nmap <silent> <leader>/ :nohlsearch<CR>
+
+" Toggle the Tlist
+nmap <silent> <leader>ll :TlistToggle<CR>
+
+" Fold the select visual box
+vmap <silent> <leader>fo :fo<cr>
 
 cmap w!! w !sudo tee % >/dev/null
 
