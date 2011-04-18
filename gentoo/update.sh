@@ -14,11 +14,11 @@ fi
 /bin/grep -v '^#' /etc/fstab | /bin/grep -v '^$' > fstab
 cp -u /usr/src/linux/.config kernel.config
 cp -u /etc/locale.gen ./
-cp -u /opt/kvm/ooo ./
+#cp -u /opt/kvm/ooo ./
 cp -u /etc/make.conf ./
 cp -u /etc/portage/package.* ./portage/
-cp -u /etc/conf.d/local.start ./conf.d/
+#cp -u /etc/conf.d/local.start ./conf.d/
 cp -u /etc/conf.d/net ./conf.d/
-cp -u /etc/X11/xorg.conf ./X11/
+cp -ur /etc/X11/{xorg.conf,xorg.conf.d/} ./X11/
 
 #chown xf.xf -R $cur_dir
