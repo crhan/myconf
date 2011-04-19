@@ -1,0 +1,8 @@
+dev-libs/libxml2 icu
+>=media-video/ffmpeg-0.6_p25767 threads
+app-editors/vim cscope ruby
+x11-wm/fluxbox -gnome vim-syntax
+>=dev-lang/python-2.5 sqlite
+sys-fs/lvm2 -static
+app-admin/conky thinkpad iostats truetype audacious -ipv6
+gnome-base/gnome-session branding
