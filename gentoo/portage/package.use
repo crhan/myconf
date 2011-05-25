@@ -1,3 +1,4 @@
+dev-libs/protobuf -python
 dev-libs/libxml2 icu
 >=media-video/ffmpeg-0.6_p25767 threads
 app-editors/vim cscope ruby
@@ -6,3 +7,26 @@ x11-wm/fluxbox -gnome vim-syntax
 sys-fs/lvm2 -static
 app-admin/conky thinkpad iostats truetype audacious -ipv6
 gnome-base/gnome-session branding
+dev-java/swing-layout source
+dev-lang/php fpm mysql mysqli doc tidy xpm force-cgi-redirect xml xmlreader xmlwriter json sqlite
+media-libs/libpng apng
+net-wireless/wpa_supplicant madwifi
+app-portage/layman git subversion mercurial
+media-sound/banshee ipod doc youtube podcast
+>=media-libs/libgpod-0.7.95 mono ios
+media-plugins/gst-plugins-meta ffmpeg lame taglib v4l2
+>=virtual/ffmpeg-0.6.90 threads
+dev-java/swt -xulrunner
+x11-wm/compiz-fusion emerald
+dev-java/sun-jdk doc examples
+>=dev-python/PyQt4-4.8.2 webkit
+app-text/fbreader -gtk
+gnome-base/gconf introspection
+>=sys-auth/polkit-0.100 introspection
+>=media-video/totem-3.0.1 -introspection -python
+app-shells/zsh doc examples caps
+>=media-libs/gd-2.0.28 fontconfig
+>=net-fs/samba-3.5.8-r1 doc examples syslog
+>=net-p2p/transmission-2.31 -qt4
+x11-misc/google-gadgets -xulrunner
+net-misc/networkmanager dhcpcd resolvconf

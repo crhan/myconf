@@ -1,0 +1,5 @@
+>=gnome-base/gdm-3.0.0
+>=x11-wm/metacity-2.34.0
+>=x11-misc/notification-daemon-0.7
+>=gnome-base/gnome-desktop-9999
+>=x11-libs/wxGTK-2.9.1.1

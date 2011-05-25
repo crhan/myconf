@@ -2,10 +2,10 @@
 
 # cur_dir="/home/xf/git/conf/tb.gentoo"
 
-if [ $(id -u) != "0" ]; then
-    echo "Error: You must be root to run this script, please use root to update"
-    exit 1
-fi
+# if [ $(id -u) != "0" ]; then
+#     echo "Error: You must be root to run this script, please use root to update"
+#     exit 1
+# fi
 
 # cd $cur_dir
 
