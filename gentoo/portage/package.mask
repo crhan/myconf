@@ -1,3 +1,0 @@
->=net-misc/openssh-5.8_p2
->=net-wireless/gnome-bluetooth-9999
->=dev-libs/glib-2.28.7

@@ -30,3 +30,5 @@ app-shells/zsh doc examples caps
 >=net-p2p/transmission-2.31 -qt4
 x11-misc/google-gadgets -xulrunner
 net-misc/networkmanager dhcpcd resolvconf
+net-voip/telepathy-connection-managers icq irc jabber msn sip zeroconf yahoo
+app-i18n/ibus introspection vala

@@ -101,4 +101,4 @@ alias clr="clear"
 
 export EDITOR=vim
 
-export "PATH=$HOME/bin:$PATH:/home/crhan/src/android-sdk/platform-tools"
+export "PATH=$HOME/bin:/sbin:/bin/sbin:$PATH:/home/crhan/src/android-sdk/platform-tools"

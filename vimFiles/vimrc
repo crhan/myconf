@@ -50,7 +50,7 @@ set nobackup
 
 " Use file type plugins
 filetype plugin indent on
-autocmd filetype python set expandtab
+"autocmd filetype python set expandtab
 
 " Set term to support 256 color to enable the colorscheme mustang
 set t_Co=256
