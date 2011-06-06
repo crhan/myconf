@@ -20,5 +20,6 @@ cp -u /etc/portage/package.* ./portage/
 #cp -u /etc/conf.d/local.start ./conf.d/
 cp -u /etc/conf.d/net ./conf.d/
 cp -ur /etc/X11/{xorg.conf,xorg.conf.d/} ./X11/
+cp -ur /etc/udev/rules.d/* ./udev.rules/
 
 #chown xf.xf -R $cur_dir
