@@ -28,3 +28,6 @@
 [submodule "vimFiles/bundle/command-t"]
 	path = vimFiles/bundle/command-t
 	url = https://github.com/wincent/Command-T.git
+[submodule "vimFiles/bundle/Conque-Shell"]
+	path = vimFiles/bundle/Conque-Shell
+	url = https://github.com/vim-scripts/Conque-Shell.git

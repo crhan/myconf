@@ -102,3 +102,11 @@ alias clr="clear"
 export EDITOR=vim
 
 export "PATH=$HOME/bin:/sbin:/bin/sbin:$PATH:/home/crhan/src/android-sdk/platform-tools"
+
+function testSSH(){
+	for i in crhan.com crhan.info s{9,10,11,12}.shtion.com; do ping -qc20 $i;done;	
+	
+}
+
+complete -c sudo
+[[ -f /etc/profile.d/bash-completion.sh ]] && source /etc/profile.d/bash-completion.sh

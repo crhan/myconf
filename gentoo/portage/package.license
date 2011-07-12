@@ -2,3 +2,5 @@ net-im/skype skype-eula
 dev-java/sun-jre-bin dlj-1.1
 www-plugins/adobe-flash AdobeFlash-10.1
 dev-java/sun-jdk dlj-1.1
+#required by app-emulation/virtualbox-4.0.10[additions], required by virtualbox (argument)
+>=app-emulation/virtualbox-additions-4.0.10 PUEL

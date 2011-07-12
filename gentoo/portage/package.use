@@ -32,3 +32,20 @@ x11-misc/google-gadgets -xulrunner
 net-misc/networkmanager dhcpcd resolvconf
 net-voip/telepathy-connection-managers icq irc jabber msn sip zeroconf yahoo
 app-i18n/ibus introspection vala
+dev-lang/perl doc
+media-libs/win32codecs real
+app-editors/gvim ruby netbeans 
+gnome-base/gvfs cdda
+media-sound/pulseaudio realtime
+>=net-im/pidgin-2.9.0 silc gnutls gadu
+#required by net-im/pidgin-2.9.0[gadu], required by pidgin (argument)
+>=net-libs/libgadu-1.11.0 gnutls
+#required by kde-base/kajongg-4.6.4, required by kde-base/kdegames-meta-4.6.4[python], required by kde-base/kde-meta-4.6.4, required by kde-meta (argument)
+>=x11-libs/qt-webkit-4.7.3 kde
+#required by kde-base/pykde4-4.6.4-r1, required by kde-base/kajongg-4.6.4, required by kde-base/kdegames-meta-4.6.4[python], required by kde-base/kde-meta-4.6.4, required by kde-meta (argument)
+>=dev-python/PyQt4-4.8.4 declarative sql
+#required by kde-base/kajongg-4.6.4, required by kde-base/kdegames-meta-4.6.4[python], required by kde-base/kde-meta-4.6.4, required by kde-meta (argument)
+>=x11-libs/qt-qt3support-4.7.3 kde
+#required by media-plugins/totem-sopcast-0.0.4, required by totem-sopcast (argument)
+#required by gnome-extra/evolution-exchange-3.0.2, required by evolution-exchange (argument)
+=gnome-extra/evolution-data-server-3.0.2.1 kerberos
