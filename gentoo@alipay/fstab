@@ -1,0 +1,4 @@
+/dev/sda6		/boot		ext2		noatime	1 2
+/dev/sda8		/		ext4		noatime		0 1
+/dev/sda7		none		swap		sw		0 0
+10.253.74.247:/var/www/html	/mnt/247	nfs	defaults,nolock 0 0
