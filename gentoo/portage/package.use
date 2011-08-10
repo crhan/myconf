@@ -49,3 +49,7 @@ media-sound/pulseaudio realtime
 #required by media-plugins/totem-sopcast-0.0.4, required by totem-sopcast (argument)
 #required by gnome-extra/evolution-exchange-3.0.2, required by evolution-exchange (argument)
 =gnome-extra/evolution-data-server-3.0.2.1 kerberos
+dev-libs/nss utils
+>=app-emulation/virtualbox-4.0.12 vboxwebsrv vnc extensions doc
+app-emulation/vmware-tools vmware_guest_winPre2k vmware_guest_windows vmware_guest_linux
+sys-kernel/gentoo-sources build

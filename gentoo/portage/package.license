@@ -4,3 +4,7 @@ www-plugins/adobe-flash AdobeFlash-10.1
 dev-java/sun-jdk dlj-1.1
 #required by app-emulation/virtualbox-4.0.10[additions], required by virtualbox (argument)
 >=app-emulation/virtualbox-additions-4.0.10 PUEL
+#required by app-emulation/virtualbox-4.0.12[extensions], required by virtualbox (argument)
+=app-emulation/virtualbox-extpack-oracle-4.0.12 PUEL
+#required by app-emulation/virtualbox-4.1.0[extensions], required by @selected, required by @world (argument)
+>=app-emulation/virtualbox-extpack-oracle-4.1.0 PUEL
