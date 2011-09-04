@@ -21,6 +21,7 @@ endif
 " Most basic settings
 set wrap          " wrap lines
 set tabstop=4     " a tab is four spaces
+set expandtab     " expand tab to spaces
 set backspace=indent,eol,start
                   " allow backspacing over everything in insert mode
 set autoindent    " always set autoindenting on
@@ -36,6 +37,7 @@ set smarttab      " insert tabs on the start of a line according to
                   "    shiftwidth, not tabstop
 set hlsearch      " highlight search terms
 set incsearch     " show search matches as you type
+set updatecount=100 " every 100 chars will vim save them to swap
 
 " Set vim to have a large undo buffer
 set history=1000         " remember more commands and search history
@@ -104,4 +106,9 @@ nnoremap <silent> <F8> :YRShow<CR>
 nmap <silent> <Leader>b :LustyJuggler<CR>
 
 " Bind paste mode toggle to <Leader>p
-set pastetoggle=<F9>
+set pastetoggle=<leader>p
+
+" set vimpress
+let VIMPRESS = [{'username':'crhan',
+                \'blog_url':'http://b.crhan.com/'
+                \}]
