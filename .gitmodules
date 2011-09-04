@@ -34,3 +34,6 @@
 [submodule "vimFiles/bundle/nerdtree"]
 	path = vimFiles/bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
+[submodule "vimFiles/bundle/vimRepress"]
+	path = vimFiles/bundle/vimRepress
+	url = https://github.com/vim-scripts/VimRepress.git

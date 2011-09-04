@@ -1,0 +1,2 @@
+>=dev-libs/libgweather-9999
+

@@ -17,3 +17,4 @@
 # NetworkManager
 # Meta packages
 >=gnome-base/gnome-3.0.0
+deb-libs/libgweather

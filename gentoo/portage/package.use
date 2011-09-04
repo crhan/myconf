@@ -11,7 +11,7 @@ dev-java/swing-layout source
 dev-lang/php fpm mysql mysqli doc tidy xpm force-cgi-redirect xml xmlreader xmlwriter json sqlite
 media-libs/libpng apng
 net-wireless/wpa_supplicant madwifi
-app-portage/layman git subversion mercurial
+app-portage/layman git subversion mercurial bzr
 media-sound/banshee ipod doc youtube podcast
 >=media-libs/libgpod-0.7.95 mono ios
 media-plugins/gst-plugins-meta ffmpeg lame taglib v4l2
@@ -23,7 +23,6 @@ dev-java/sun-jdk doc examples
 app-text/fbreader -gtk
 gnome-base/gconf introspection
 >=sys-auth/polkit-0.100 introspection
->=media-video/totem-3.0.1 -introspection -python
 app-shells/zsh doc examples caps
 >=media-libs/gd-2.0.28 fontconfig
 >=net-fs/samba-3.5.8-r1 doc examples syslog
@@ -31,7 +30,7 @@ app-shells/zsh doc examples caps
 x11-misc/google-gadgets -xulrunner
 net-misc/networkmanager dhcpcd resolvconf
 net-voip/telepathy-connection-managers icq irc jabber msn sip zeroconf yahoo
-app-i18n/ibus introspection vala
+app-i18n/ibus introspection 
 dev-lang/perl doc
 media-libs/win32codecs real
 app-editors/gvim ruby netbeans 
@@ -46,10 +45,9 @@ media-sound/pulseaudio realtime
 >=dev-python/PyQt4-4.8.4 declarative sql
 #required by kde-base/kajongg-4.6.4, required by kde-base/kdegames-meta-4.6.4[python], required by kde-base/kde-meta-4.6.4, required by kde-meta (argument)
 >=x11-libs/qt-qt3support-4.7.3 kde
-#required by media-plugins/totem-sopcast-0.0.4, required by totem-sopcast (argument)
 #required by gnome-extra/evolution-exchange-3.0.2, required by evolution-exchange (argument)
 =gnome-extra/evolution-data-server-3.0.2.1 kerberos
 dev-libs/nss utils
 >=app-emulation/virtualbox-4.0.12 vboxwebsrv vnc extensions doc
 app-emulation/vmware-tools vmware_guest_winPre2k vmware_guest_windows vmware_guest_linux
-sys-kernel/gentoo-sources build
+x11-terms/rxvt-unicode 256-color
