@@ -112,3 +112,9 @@ set pastetoggle=<leader>p
 let VIMPRESS = [{'username':'crhan',
                 \'blog_url':'http://b.crhan.com/'
                 \}]
+
+" Markdown to HTML
+nmap <leader>md :%!/usr/bin/Markdown.pl <cr>
+
+" NERDTree key binding
+nmap <leader>nt :NERDTree<cr>

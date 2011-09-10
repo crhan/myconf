@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<herd>no-herd</herd>
+<maintainer>
+  <email>udev-bugs@gentoo.org</email>
+</maintainer>
+<use>
+  <flag name="extras">Compile udev-extras requiring external dependencies</flag>
+  <flag name="openrc">Enable hotplug via openrc init scripts</flag>
+  <flag name="systemd">Install systemd service files</flag>
+</use>
+</pkgmetadata>

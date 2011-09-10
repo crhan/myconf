@@ -37,3 +37,12 @@
 [submodule "vimFiles/bundle/vimRepress"]
 	path = vimFiles/bundle/vimRepress
 	url = https://github.com/vim-scripts/VimRepress.git
+[submodule "vimFiles/bundle/vim-markdown"]
+	path = vimFiles/bundle/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "vimFiles/bundle/easymotion"]
+	path = vimFiles/bundle/easymotion
+	url = https://github.com/Lokaltog/vim-easymotion.git
+[submodule "vimFiles/bundle/tcomment"]
+	path = vimFiles/bundle/tcomment
+	url = https://github.com/tomtom/tcomment_vim.git
