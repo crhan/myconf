@@ -38,6 +38,7 @@ set smarttab      " insert tabs on the start of a line according to
 set hlsearch      " highlight search terms
 set incsearch     " show search matches as you type
 set updatecount=100 " every 100 chars will vim save them to swap
+set cursorline    " Highlight the cursor line
 
 " Set vim to have a large undo buffer
 set history=1000         " remember more commands and search history
@@ -73,8 +74,8 @@ endif
 
 " Add a shortcut Mappings for ":" and make j k more like the normal one
 nnoremap ; :
-nnoremap j gj
-nnoremap k gk
+"nnoremap j gj
+"nnoremap k gk
 
 " Easy window navigation
 map <C-h> <C-w>h
@@ -118,3 +119,24 @@ nmap <leader>md :%!/usr/bin/Markdown.pl <cr>
 
 " NERDTree key binding
 nmap <leader>nt :NERDTree<cr>
+
+let g:input_toggle = 1
+function! Fcitx2en()
+   let s:input_status = system("fcitx-remote")
+   if s:input_status == 2
+      let g:input_toggle = 1
+      let l:a = system("fcitx-remote -c")
+   endif
+endfunction
+
+function! Fcitx2zh()
+   let s:input_status = system("fcitx-remote")
+   if s:input_status != 2 && g:input_toggle == 1
+      let l:a = system("fcitx-remote -o")
+      let g:input_toggle = 0
+   endif
+endfunction
+
+set timeoutlen=150
+autocmd InsertLeave * call Fcitx2en()
+"autocmd InsertEnter * call Fcitx2zh()
