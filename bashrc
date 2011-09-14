@@ -81,3 +81,13 @@ function rsyncMo(){
 
 complete -c sudo
 [[ -f /etc/profile.d/bash-completion.sh ]] && source /etc/profile.d/bash-completion.sh
+
+# use keychain as the ssh-agent frontend
+if [ -x "$(which keychain)" ]
+then
+    ssh_key=`find $HOME/.ssh/ -type f`
+    for i in $ssh_key;do
+        [ -f ${i}.pub ] && ssh_key_add=${ssh_key_add+${ssh_key_add} }${i}
+    done
+    eval `keychain --eval ${ssh_key_add}`
+fi
