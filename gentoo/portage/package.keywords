@@ -1,0 +1,19 @@
+sys-apps/systemd
+sys-apps/dbus
+sys-fs/udev
+sys-kernel/linux-headers
+dev-libs/atk
+dev-libs/glib
+dev-lang/vala
+x11-libs/gtk+:2
+net-dns/avahi
+net-misc/networkmanager
+net-wireless/bluez
+net-wireless/wpa-supplicant
+sys-auth/consolekit
+#required by =sys-apps/systemd-32 (argument)
+>=sys-apps/systemd-32 **
+#required by x11-plugins/pidgin-sendscreenshot (argument)
+>=x11-plugins/pidgin-sendscreenshot-0.7 **
+#required by tfm-fingerprint (argument)
+>=sys-auth/tfm-fingerprint-1.0 **

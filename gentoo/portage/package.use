@@ -1,53 +1,48 @@
-dev-libs/protobuf -python
-dev-libs/libxml2 icu
->=media-video/ffmpeg-0.6_p25767 threads
-app-editors/vim cscope ruby
-x11-wm/fluxbox -gnome vim-syntax
->=dev-lang/python-2.5 sqlite
-sys-fs/lvm2 -static
-app-admin/conky thinkpad iostats truetype audacious -ipv6
-gnome-base/gnome-session branding
-dev-java/swing-layout source
-dev-lang/php fpm mysql mysqli doc tidy xpm force-cgi-redirect xml xmlreader xmlwriter json sqlite
-media-libs/libpng apng
-net-wireless/wpa_supplicant madwifi
 app-portage/layman git subversion mercurial bzr
+dev-lang/php fpm mysql mysqli doc tidy xml xmlreader xmlwriter json sqlite
+app-editors/vim cscope ruby vim-pager
+sys-fs/lvm2 -static
+gnome-base/gnome-session branding
 media-sound/banshee ipod doc youtube podcast
 >=media-libs/libgpod-0.7.95 mono ios
 media-plugins/gst-plugins-meta ffmpeg lame taglib v4l2
 >=virtual/ffmpeg-0.6.90 threads
-dev-java/swt -xulrunner
-x11-wm/compiz-fusion emerald
 dev-java/sun-jdk doc examples
->=dev-python/PyQt4-4.8.2 webkit
-app-text/fbreader -gtk
-gnome-base/gconf introspection
->=sys-auth/polkit-0.100 introspection
 app-shells/zsh doc examples caps
->=media-libs/gd-2.0.28 fontconfig
 >=net-fs/samba-3.5.8-r1 doc examples syslog
 >=net-p2p/transmission-2.31 -qt4
-x11-misc/google-gadgets -xulrunner
 net-misc/networkmanager dhcpcd resolvconf
-net-voip/telepathy-connection-managers icq irc jabber msn sip zeroconf yahoo
-app-i18n/ibus introspection 
 dev-lang/perl doc
-media-libs/win32codecs real
 app-editors/gvim ruby netbeans 
-gnome-base/gvfs cdda
 media-sound/pulseaudio realtime
 >=net-im/pidgin-2.9.0 silc gnutls gadu
-#required by net-im/pidgin-2.9.0[gadu], required by pidgin (argument)
->=net-libs/libgadu-1.11.0 gnutls
-#required by kde-base/kajongg-4.6.4, required by kde-base/kdegames-meta-4.6.4[python], required by kde-base/kde-meta-4.6.4, required by kde-meta (argument)
->=x11-libs/qt-webkit-4.7.3 kde
-#required by kde-base/pykde4-4.6.4-r1, required by kde-base/kajongg-4.6.4, required by kde-base/kdegames-meta-4.6.4[python], required by kde-base/kde-meta-4.6.4, required by kde-meta (argument)
->=dev-python/PyQt4-4.8.4 declarative sql
-#required by kde-base/kajongg-4.6.4, required by kde-base/kdegames-meta-4.6.4[python], required by kde-base/kde-meta-4.6.4, required by kde-meta (argument)
->=x11-libs/qt-qt3support-4.7.3 kde
-#required by gnome-extra/evolution-exchange-3.0.2, required by evolution-exchange (argument)
-=gnome-extra/evolution-data-server-3.0.2.1 kerberos
-dev-libs/nss utils
->=app-emulation/virtualbox-4.0.12 vboxwebsrv vnc extensions doc
-app-emulation/vmware-tools vmware_guest_winPre2k vmware_guest_windows vmware_guest_linux
 x11-terms/rxvt-unicode 256-color
+#required by net-libs/xulrunner-2.0.1-r1, required by dev-libs/gjs-0.7.14-r1[xulrunner], required by gnome-base/gnome-shell-3.0.2-r1, required by gnome-base/gnome-light-3.0.0[shell], required by gnome-light (argument)
+=media-libs/libpng-1.4.8-r1 apng
+#required by www-client/chromium-14.0.835.109, required by chromium (argument)
+>=dev-libs/libxml2-2.7.8-r2 icu
+>=www-client/chromium-15.0.861.0 chromedriver
+x11-base/xorg-server udev
+>=net-im/pidgin-2.10.0 networkmanager
+#required by net-im/pidgin-2.10.0[gadu], required by pidgin (argument)
+>=net-libs/libgadu-1.11.0 gnutls
+>=mail-client/evolution-3.0.2 networkmanager
+>=dev-libs/nss-3.12.11 utils
+>=net-print/cups-1.4.8-r22 samba
+#required by kde-base/konqueror-4.7.1, required by kde-base/kdebase-meta-4.7.1, required by kde-base/kde-meta-4.7.1, required by kde-meta (argument)
+>=x11-libs/qt-webkit-4.7.4 kde
+#required by kde-base/pykde4-4.7.1, required by kde-base/kajongg-4.7.1, required by kde-base/kdegames-meta-4.7.1[python], required by kde-base/kde-meta-4.7.1, required by kde-meta (argument)
+>=dev-python/PyQt4-4.8.5 webkit declarative sql
+#required by kde-base/konqueror-4.7.1, required by kde-base/kdebase-meta-4.7.1, required by kde-base/kde-meta-4.7.1, required by kde-meta (argument)
+>=x11-libs/qt-qt3support-4.7.4 kde
+#required by gnome-extra/hamster-applet-2.32.1, required by gnome-base/gnome-2.32.1-r1, required by @selected, required by @world (argument)
+>=dev-lang/python-3.2-r2 sqlite
+x11-wm/compiz-fusion emerald
+#required by sys-power/suspend-1.0, required by suspend (argument)
+>=dev-libs/lzo-2.06 static-libs
+#required by sys-power/suspend-1.0[crypt], required by suspend (argument)
+>=dev-libs/libgpg-error-1.10 static-libs
+#required by sys-power/suspend-1.0[crypt], required by suspend (argument)
+>=dev-libs/libgcrypt-1.5.0 static-libs
+gnome-extra/nm-applet -bluetooth
+app-mobilephone/obexd -eds

@@ -1,10 +1,4 @@
-net-im/skype skype-eula
-dev-java/sun-jre-bin dlj-1.1
-www-plugins/adobe-flash AdobeFlash-10.1
-dev-java/sun-jdk dlj-1.1
-#required by app-emulation/virtualbox-4.0.10[additions], required by virtualbox (argument)
->=app-emulation/virtualbox-additions-4.0.10 PUEL
-#required by app-emulation/virtualbox-4.0.12[extensions], required by virtualbox (argument)
-=app-emulation/virtualbox-extpack-oracle-4.0.12 PUEL
-#required by app-emulation/virtualbox-4.1.0[extensions], required by @selected, required by @world (argument)
->=app-emulation/virtualbox-extpack-oracle-4.1.0 PUEL
+#required by sun-jdk (argument)
+>=dev-java/sun-jdk-1.6.0.26 dlj-1.1
+#required by virtual/jdk-1.7.0, required by virtual/jre-1.7.0, required by sys-devel/gettext-0.18.1.1-r3[java], required by sys-apps/coreutils-8.13[nls], required by app-admin/eselect-1.2.17, required by gnome-base/dconf-0.8.0[bash-completion], required by gnome-base/gnome-settings-daemon-3.0.2-r2, required by gnome-base/gdm-3.0.4-r2, required by @selected, required by @world (argument)
+>=dev-java/oracle-jdk-bin-1.7.0 Oracle-BCLA-JavaSE

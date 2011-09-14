@@ -1,20 +1,7 @@
->=gnome-base/gdm-3.0.0
->=x11-wm/metacity-2.34.0
->=x11-misc/notification-daemon-0.7
->=gnome-base/gnome-desktop-9999
->=x11-libs/wxGTK-2.9.1.1
-#required by =gnome-base/gnome-3.0.0 (argument)
+#required by =www-client/chromium-15.0.861.0 (argument)
 # /usr/portage/profiles/package.mask:
-# Nirbheek Chauhan <nirbheek@gentoo.org> (29 Jul 2011)
-# GNOME 3.0 mask for upgrade packages, don't add new packages to this list
-# unless they pull in one of the masked packages
-# The "Better late than never!" release
-#
-# Libraries
-# Core Applications
-# Extra Applications
-# Documentation
-# NetworkManager
-# Meta packages
->=gnome-base/gnome-3.0.0
-deb-libs/libgweather
+# Pawel Hajdan jr <phajdan.jr@gentoo.org> (11 Aug 2011)
+# Dev channel releases are only for people who are developers or want more
+# experimental features and accept a more unstable release.
+>=www-client/chromium-15.0.861.0:0
+sys-apps/systemd

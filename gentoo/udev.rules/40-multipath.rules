@@ -1,0 +1,11 @@
+# multipath wants the devmaps presented as meaninglful device names
+# so name them after their devmap name
+SUBSYSTEM!="block", GOTO="end_mpath"
+RUN+="socket:/org/kernel/dm/multipath_event"
+KERNEL!="dm-*", GOTO="end_mpath"
+ACTION!="change", GOTO="end_mpath"
+ENV{DM_SUSPENDED}=="1", GOTO="end_mpath"
+ENV{DM_UUID}!="mpath-?*", GOTO="end_mpath"
+ENV{DM_ACTION}=="PATH_FAILED", GOTO="end_mpath"
+RUN+="$env{DM_SBIN_PATH}/kpartx -a -p p $tempnode"
+LABEL="end_mpath"
